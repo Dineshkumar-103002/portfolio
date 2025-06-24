@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
 return (
   <>
-    <header className="bg-gradient-to-r from-[#222831] via-[#393e46] to-[#00adb5] shadow-lg font-sans">
+    <header className="bg-gradient-to-r from-[#393e46] via-[#222831] to-[#00adb5] shadow-lg font-sans">
       <div className="max-w-7xl mx-auto flex items-center justify-between py-4 px-6">
         <div className="flex items-center space-x-2">
           <span
@@ -21,7 +21,7 @@ return (
           <a href="#contact" className="text-[#e0f7fa] hover:text-[#00adb5] font-medium font-sans transition">Contact</a>
         </nav>
         <a
-          href="/cv.pdf"
+          href="https://drive.google.com/file/d/1LbXXWTS_leIA6OlbhIgMg2uQMt_y2iCf/view?usp=drivesdk"
           className="ml-4 px-5 py-2 rounded-full bg-gradient-to-r from-[#00adb5] to-[#393e46] text-white shadow hover:from-[#00bfae] hover:to-[#222831] transition font-bold font-sans border border-[#00adb5]"
         >
           Download CV

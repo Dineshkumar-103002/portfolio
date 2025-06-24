@@ -30,8 +30,8 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="flex flex-col md:flex-row min-h-screen bg-gradient-to-r from-[#393e46] via-[#222831] to-[#00adb5]">
-      {/* Left: Intro Content */}
+      className="flex flex-col md:flex-row min-h-screen bg-gradient-to-r from-[#393e46] via-[#222831] to-[#00adb5]"
+    >
       <div className="flex-1 flex flex-col justify-center px-6 md:px-12 text-white">
         <h1 className="text-6xl md:text-8xl font-extrabold mb-2 animate-fade-in-down">
           Hi, <span className="block text-7xl md:text-9xl font-black leading-tight">Welcome</span>
@@ -66,13 +66,11 @@ const Home = () => {
           </a>
         </div>
       </div>
-      {/* Right: Profile Image or Visual */}
       <div
         className="flex-1 min-h-[300px] flex items-center justify-center bg-cover bg-center rounded-lg md:rounded-l-lg md:rounded-r-none animate-fade-in shadow-2xl"
-        // style={{ backgroundImage: "url('./src/assets/image.png')" }} // Replace with your actual image path
+        style={{ backgroundImage: "url('./src/assets/image.png')" }}
         aria-label="Profile background"
       >
-        {/* Optionally, add a fallback or overlay here */}
       </div>
     </section>
   );

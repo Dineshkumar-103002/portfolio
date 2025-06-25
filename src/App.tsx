@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Home from "./pages/Home";
-import About from "./pages/AboutMe";
+import About from "./pages/aboutMe";
 import Skills from "./pages/skills";
 import Project from "./pages/Project";
 import Contact from "./pages/contact";

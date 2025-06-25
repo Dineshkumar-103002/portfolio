@@ -69,10 +69,10 @@ const Home = () => {
       {/* Right: Profile Image or Visual */}
       <div
         className="flex-1 min-h-[300px] flex items-center justify-center bg-cover bg-center rounded-lg md:rounded-l-lg md:rounded-r-none animate-fade-in shadow-2xl"
-        // style={{ backgroundImage: "url('./src/assets/image.png')" }} // Replace with your actual image path
+        style={{ backgroundImage: "url('./src/assets/WhatsApp Image 2025-06-25 at 2.13.44 PM (1).jpeg')" }} // Replace with your actual image path
         aria-label="Profile background"
       >
-        {/* Optionally, add a fallback or overlay here */}
+
       </div>
     </section>
   );

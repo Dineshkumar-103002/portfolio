@@ -84,7 +84,6 @@ const MyStory = () => (
       My Story
     </h2>
     <div className="relative max-w-4xl w-full mx-auto">
-      {/* Vertical dotted line */}
       <div className="absolute left-1/2 top-0 h-full border-l-2 border-dotted border-[#00adb5] z-0 transform -translate-x-1/2" />
       <div className="flex flex-col gap-12">
         {storyTimeline.map((item, idx) => (
@@ -107,7 +106,6 @@ const MyStory = () => (
                 </div>
               </div>
             </div>
-            {/* Dot on the timeline */}
             <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
               <div className="w-5 h-5 rounded-full bg-[#00adb5] border-4 border-white shadow-md"></div>
             </div>

@@ -2,7 +2,6 @@ import StorageIcon from "@mui/icons-material/Storage";
 import BrushIcon from "@mui/icons-material/Brush";
 import DevicesIcon from "@mui/icons-material/Devices";
 import IntegrationInstructionsIcon from "@mui/icons-material/IntegrationInstructions";
-import SecurityIcon from "@mui/icons-material/Security";
 import HtmlIcon from "@mui/icons-material/Html";
 import CssIcon from "@mui/icons-material/Css";
 import ReactIcon from "@mui/icons-material/DeveloperMode"; // Use a suitable icon for React
@@ -10,7 +9,6 @@ import JavascriptIcon from "@mui/icons-material/Javascript";
 import StorageRoundedIcon from "@mui/icons-material/StorageRounded";
 import StorageOutlinedIcon from "@mui/icons-material/StorageOutlined";
 import DataObjectIcon from "@mui/icons-material/DataObject";
-import BuildIcon from "@mui/icons-material/Build";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
 const FigmaIcon = () => (

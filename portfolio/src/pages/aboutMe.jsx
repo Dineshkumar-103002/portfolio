@@ -1,6 +1,8 @@
 import SchoolIcon from '@mui/icons-material/School';
 import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
 import PersonIcon from '@mui/icons-material/Person';
+import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
+
 
 const aboutCards = [
   {
@@ -30,6 +32,20 @@ const aboutCards = [
       </>
     ),
   },
+    {
+    icon: <SportsEsportsIcon className="text-[#00adb5] text-4xl mb-2" />,
+    title: "Hobbies",
+    description: (
+      <ul className="list-disc list-inside text-left mx-auto max-w-xs">
+        <li>Playing cricket</li>
+        <li>Watching anime</li>
+        <li>Playing games</li>
+        <li>Travelling</li>
+        <li>Creating web pages for fun and designing</li>
+        <li>Learning about new things</li>
+      </ul>
+    ),
+  },
 ];
 
 const About = () => (
@@ -40,18 +56,19 @@ const About = () => (
     <h2 className="text-3xl md:text-4xl font-bold text-[#ffffff] tracking-tight mb-10 flex items-center gap-3">
       About Me
     </h2>
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl">
-      {aboutCards.map((card, idx) => (
-        <div
-          key={idx}
-          className="bg-white/80 rounded-xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-2xl transition"
-        >
-          {card.icon}
-          <h3 className="text-xl font-semibold text-[#222831] mb-2">{card.title}</h3>
-          <p className="text-[#393e46] text-base">{card.description}</p>
-        </div>
-      ))}
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 w-full max-w-6xl">
+  {aboutCards.map((card, idx) => (
+    <div
+      key={idx}
+      className="bg-white/80 rounded-xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-2xl transition"
+    >
+      {card.icon}
+      <h3 className="text-xl font-semibold text-[#222831] mb-2">{card.title}</h3>
+      <div className="text-[#393e46] text-base">{card.description}</div>
     </div>
+  ))}
+</div>
+
   </section>
 );
 
